@@ -59,7 +59,11 @@ const Aboutus = () => {
 
         {/* Text Content */}
         <p className="text-gray-300 mt-6 text-justify px-4 md:px-16 leading-relaxed">
-          Vivamus id gravida mi, nec ullamcorper purus. Suspendisse ut nibh sagittis lacus viverra aliquam. Praesent ac lobortis mauris, non imperdiet quam. Praesent laoreet elit nisi, id feugiat ante accumsan sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+        Welcome to Saloon, where style meets sophistication. Since our establishment in 2000, we have been dedicated to providing top-notch grooming services with a touch of luxury. Our expert barbers and stylists are passionate about crafting the perfect look for every client, ensuring precision, quality, and satisfaction in every cut.
+
+At Hordor Barber, we believe that a great haircut is more than just a trim—it's an experience. Whether you're looking for a classic cut, a modern style, or a relaxing shave, our skilled team is here to deliver excellence. We use high-quality products and the latest techniques to give you a sharp, confident look.
+
+Step into our salon, relax in our comfortable chairs, and let us take care of the rest. Your style, our expertise—perfection guaranteed.
         </p>
 
         {/* Our Story Section */}
@@ -79,7 +83,7 @@ const Aboutus = () => {
           <div className="w-full md:w-1/2">
             <h2 className="text-white text-5xl font-bold text-left">Our Story</h2>
             <p className="text-gray-300 mt-4 leading-relaxed text-justify">
-              Vivamus id gravida mi, nec ullamcorper purus. Suspendisse ut nibh sagittis lacus viverra aliquam. Praesent ac lobortis mauris, non imperdiet quam.
+            Since 2000, Saloon has been dedicated to top-tier grooming with style and precision. Our expert team blends tradition with modern trends, ensuring every client leaves looking and feeling their best. Step in, relax, and let us craft your perfect look.
             </p>
           </div>
         </div>
@@ -89,7 +93,9 @@ const Aboutus = () => {
           <div className="w-full md:w-1/2">
             <h2 className="text-white text-5xl font-bold text-left">Our Mission</h2>
             <p className="text-gray-300 mt-4 leading-relaxed text-justify">
-              Donec ultricies lobortis eros, nec auctor nisl semper ultricies. Aliquam sodales nulla dolor, sed vulputate sapien efficitur ut.
+            At Saloon, we strive to redefine grooming with precision, style, and excellence. Our mission is to provide top-quality services in a welcoming space, ensuring every client leaves with confidence and satisfaction.
+
+
             </p>
           </div>
           <div className="w-full md:w-1/2">
