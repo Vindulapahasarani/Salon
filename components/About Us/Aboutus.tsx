@@ -5,17 +5,17 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed finibus nisi, sed dictum eros. 
-          Fermentum nulla non justo aliquet, quis vehicula quam consequat duis ut hendrerit. Ac feugiat ante. 
-          Donec ultricies lobortis eros, nec auctor nisl semper ultricies. Aliquam sodales nulla dolor.`,
-    author: "Axel Farrow",
+    text: "I had the most wonderful experience at Hodor! The staff was incredibly friendly and professional, and the ambiance was so relaxing. My hair has never looked better, and I felt truly pampered. I can’t wait for my next appointment!" ,
+          author: "Axel Farrow",
   },
   {
-    text: "In non pulvinar purus. Curabitur nisi odio, blandit et elit at, suscipit pharetra efficitur elit. Quis blandit erat. Donec laoreet libero non metus volutpat consequat in vel metus. Sed non augue id felis pellentesque.",
+    text: "Absolutely love this salon! The hairstylists are talented, and they truly listen to what you want. My hair color came out perfect, and the treatment left it feeling so soft and healthy. Highly recommended!",
     author: "Angela Charlton",
   },
   {
-    text: "Donec ultricies lobortis eros, nec auctor nisl semper ultricies. Aliquam sodales nulla dolor, sed vulputate sapien efficitur ut. Etiam tincidunt ligula ut hendrerit semper. Quisque luctus lectus non turpis bibendum posuere. Morbi tortor nibh, fringilla sed pretium sit amet, pharetra non ex. Aliquam ornare nunc nibh, sit amet porta diam pretium in.",
+    text: "From the moment I walked in, I felt welcomed and relaxed. The team is amazing, and the service is top-notch. Whether it’s a haircut, styling, or a spa treatment, they always exceed my expectations. Five stars!" ,
+
+
     author: "Igor Landry",
   },
 ];
