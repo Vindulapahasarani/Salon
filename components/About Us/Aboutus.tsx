@@ -59,12 +59,7 @@ const Aboutus = () => {
 
         {/* Text Content */}
         <p className="text-gray-300 mt-6 text-justify px-4 md:px-16 leading-relaxed">
-        Welcome to Saloon, where style meets sophistication. Since our establishment in 2000, we have been dedicated to providing top-notch grooming services with a touch of luxury. Our expert barbers and stylists are passionate about crafting the perfect look for every client, ensuring precision, quality, and satisfaction in every cut.
-
-At Hordor Barber, we believe that a great haircut is more than just a trim—it's an experience. Whether you're looking for a classic cut, a modern style, or a relaxing shave, our skilled team is here to deliver excellence. We use high-quality products and the latest techniques to give you a sharp, confident look.
-
-Step into our salon, relax in our comfortable chairs, and let us take care of the rest. Your style, our expertise—perfection guaranteed.
-        </p>
+        Welcome to Saloon, where style meets sophistication. Since 2000, we’ve provided top-notch grooming with a touch of luxury. Our expert barbers craft the perfect look with precision and care. Whether you need a classic cut, modern style, or a relaxing shave, we use the latest techniques and high-quality products to ensure excellence. Step in, relax, and let us perfect your style. </p>
 
         {/* Our Story Section */}
         <div className="mt-16 flex flex-col md:flex-row items-center gap-10">
