@@ -7,7 +7,7 @@ const Contact = () => {
       {/* Background Pattern */}
       <div className="absolute inset-0">
         <Image 
-          src="/pattern.svg" 
+          src="/images/c1.svg" 
           alt="Background Pattern" 
           layout="fill" 
           objectFit="cover" 
