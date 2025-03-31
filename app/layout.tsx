@@ -36,7 +36,7 @@ export default function RootLayout({
         <ResponsiveNav />
         {children}
        
-       
+       <Footer/>
       </body>
     </html>
   );
