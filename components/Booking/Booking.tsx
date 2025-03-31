@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { Scissors, ArrowLeft, Search } from "lucide-react";
+import { Scissors, ArrowLeft } from "lucide-react";
 
 const hairServices = [
   {
