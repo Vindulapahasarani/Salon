@@ -53,12 +53,12 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-700 mt-10">
           <div>
             <h3 className="font-semibold">Visit Us</h3>
-            <p className="text-sm">13801 N Florida Ave, Suite C, Tampa, FL, USA</p>
+            <p className="text-sm">123 Main Street, Downtown, NY 10001</p>
           </div>
           <div>
             <h3 className="font-semibold">Get In Touch</h3>
             <p className="text-sm">+1 813-644-6006</p>
-            <p className="text-sm">info@makeitviralmedia.com</p>
+            <p className="text-sm">info@hodorsalon.com</p>
           </div>
           <div>
             <h3 className="font-semibold">Open Hours</h3>
