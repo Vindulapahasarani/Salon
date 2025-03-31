@@ -51,7 +51,7 @@ const beautyServices = [
   {
     id: 6,
     name: "Hair Straightening",
-    image: "/images/.png",
+    image: "/images/10.png",
     price: "$100.00",
     duration: "30min",
     employees: 1,
