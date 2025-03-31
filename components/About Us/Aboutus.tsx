@@ -43,23 +43,21 @@ const Aboutus = () => {
           About Us
         </h1>
 
-        {/* Video Section */}
-        <div className="mt-10 flex justify-center">
-          <video
-            className="w-full md:w-[70%] rounded-lg shadow-lg h-full object-cover"
-            controls
-            autoPlay
-            muted
-            loop
-            preload="metadata"
-          >
-            <source src="/images/MIVDemoVideoFinal.mp4" type="video/mp4" />
-          </video>
-        </div>
+        
+        <div className="flex flex-col items-center text-center px-4 md:px-16">
+  {/* Image */}
+  <img 
+    src="/images/12.png" 
+    alt="Luxury Salon Experience" 
+    className="w-full max-w-lg rounded-lg shadow-lg"
+  />
 
-        {/* Text Content */}
-        <p className="text-gray-300 mt-6 text-justify px-4 md:px-16 leading-relaxed">
-        Welcome to Saloon, where style meets sophistication. Since 2000, we’ve provided top-notch grooming with a touch of luxury. Our expert barbers craft the perfect look with precision and care. Whether you need a classic cut, modern style, or a relaxing shave, we use the latest techniques and high-quality products to ensure excellence. Step in, relax, and let us perfect your style. </p>
+  {/* Text Content */}
+  <p className="text-gray-300 mt-6 text-justify leading-relaxed">
+    Welcome to Saloon, where style meets sophistication. Since 2000, we’ve provided top-notch grooming with a touch of luxury. Our expert barbers craft the perfect look with precision and care. Whether you need a classic cut, modern style, or a relaxing shave, we use the latest techniques and high-quality products to ensure excellence. Step in, relax, and let us perfect your style.
+  </p>
+</div>
+
 
         {/* Our Story Section */}
         <div className="mt-16 flex flex-col md:flex-row items-center gap-10">
@@ -129,49 +127,12 @@ const Aboutus = () => {
           </div>
         </div>
 
-        {/* Services & Info Section */}
-        <div className="mt-16 flex flex-col md:flex-row items-center gap-10">
-          <div className="flex items-center justify-center min-h-screen bg-[#121212] px-6 w-full">
-            <div className="flex flex-col md:flex-row items-center md:items-start max-w-5xl w-full">
-              {/* Text Content */}
-              <div className="w-full md:w-1/2 text-center md:text-left">
-                <h2 className="text-yellow-500 text-5xl font-bold">Hodor</h2>
-                <br />
-                <ul className="text-gray-300 mt-4 text-4xl space-y-2 font-bold">
-                  <li>Services & Pricing</li>
-                  <li>Barbers</li>
-                  <li>About Us</li>
-                  <li>Booking</li>
-                  <li>Join Our Team</li>
-                  <li>Contact</li>
-                </ul>
-                <br />
-                <p className="text-yellow-500 mt-4 font-semibold">
-                  Mon – Fri: 7am – 10pm<br />​​Saturday: 8am – 10pm<br />​Sunday: 8am – 11pm
-                </p>
-                {/* Social Icons */}
-                <div className="flex justify-center md:justify-start space-x-4 mt-6 text-yellow-500">
-                  <i className="fab fa-facebook text-2xl"></i>
-                  <i className="fab fa-x-twitter text-2xl"></i>
-                  <i className="fab fa-instagram text-2xl"></i>
-                </div>
-              </div>
+        
 
-              {/* Image */}
-              <div className="w-full md:w-1/2 flex justify-center">
-                <Image
-                  src="/images/3.png"
-                  alt="Barber Shop"
-                  width={400}
-                  height={600}
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
+    
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+       
   );
 };
 
