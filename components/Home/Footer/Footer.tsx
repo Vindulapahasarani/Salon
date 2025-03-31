@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaFacebookF, FaTwitter, FaInstagram, FaGoogle, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaGoogle, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -25,8 +25,15 @@ const Footer = () => {
             </Link>
           </div>
           <p className="text-gray-400 mt-4 max-w-sm">
-            Your content goes here. Edit or remove this text inline or in the module content settings.
+            Experience luxury hair and beauty treatments at Hodor Salon. Your style, our passion!
           </p>
+        </div>
+
+        {/* Middle Section: Address */}
+        <div className="bg-gray-900 p-6 rounded-lg shadow-lg flex flex-col items-center w-64">
+          <FaMapMarkerAlt className="text-white text-2xl mb-2" />
+          <h3 className="text-lg font-bold">Visit Us</h3>
+          <p className="text-gray-400 text-center">123 Main Street, Downtown, NY 10001</p>
         </div>
 
         {/* Right Section: Contact & Email */}
@@ -34,7 +41,7 @@ const Footer = () => {
           {/* Contact Card */}
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg flex flex-col items-center w-64">
             <FaPhone className="text-white text-2xl mb-2" />
-            <h3 className="text-lg font-bold">Contact Us</h3>
+            <h3 className="text-lg font-bold">Call Us</h3>
             <p className="text-gray-400">+1 813-644-6006</p>
           </div>
 
@@ -42,14 +49,14 @@ const Footer = () => {
           <div className="bg-gray-900 p-6 rounded-lg shadow-lg flex flex-col items-center w-64">
             <FaEnvelope className="text-white text-2xl mb-2" />
             <h3 className="text-lg font-bold">Email Us</h3>
-            <p className="text-gray-400">test@gmail.com</p>
+            <p className="text-gray-400">info@hodorsalon.com</p>
           </div>
         </div>
       </div>
 
       {/* Copyright Section */}
       <div className="text-center mt-8 text-gray-500 text-sm">
-        Copyright © 2025 MakeItViral Media. All rights reserved.
+        Copyright © 2025 Hodor Salon. All rights reserved.
       </div>
     </footer>
   );
